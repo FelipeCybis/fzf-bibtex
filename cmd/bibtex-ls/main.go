@@ -3,13 +3,13 @@ package main
 import (
 	"fmt"
 	"strings"
-	"github.com/msprev/fzf-bibtex/cache"
+	"github.com/FelipeCybis/fzf-bibtex/cache"
 	"github.com/msprev/fzf-bibtex/format"
 	"github.com/msprev/fzf-bibtex/startup"
 )
 
 const usage string = `bibtex-ls [-cache=...] [file1.bib file2.bib ...]
-  lists to stdout the content of .bib files, one record per line
+  FORK lists to stdout the content of .bib files, one record per line
 `
 
 const debug = false
