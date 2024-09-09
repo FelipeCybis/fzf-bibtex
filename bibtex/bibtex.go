@@ -153,7 +153,7 @@ new.entry.type{XData}
 	check(err)
 
 	args := append([]string{"-r", rscFile.Name()}, bibFiles...)
-	extCmd := exec.Command("bibtool", args...)
+	extCmd := exec.Command("bibtool", bibFiles...)
 	extOut, _ := extCmd.StdoutPipe()
 	err = extCmd.Start()
 	check(err) // should handle this one better!
