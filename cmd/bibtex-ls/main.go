@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 	"github.com/FelipeCybis/fzf-bibtex/cache"
-	"github.com/msprev/fzf-bibtex/format"
-	"github.com/msprev/fzf-bibtex/startup"
+	"github.com/FelipeCybis/fzf-bibtex/format"
+	"github.com/FelipeCybis/fzf-bibtex/startup"
 )
 
 const usage string = `bibtex-ls [-cache=...] [file1.bib file2.bib ...]
